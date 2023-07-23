@@ -10,6 +10,7 @@ body {
     justify-content: center;
     flex-direction: column;
     font-family: 'Hanken Grotesk', sans-serif;
+    height: 100vh;
 }
 
 p {
@@ -17,9 +18,10 @@ p {
 }
 
 section {
-    border-radius: 15px;
-    width: 60%;
+    border-radius: 3rem;
+    width: 50%;
     margin: auto;
+    background-color: hsl(221, 100%, 96%);
 }
 
 div.left, div.right {
@@ -30,7 +32,7 @@ div.left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 15px 0 0 15px;
+    border-radius: 3rem;
 }
 
 div.left > p {
@@ -68,7 +70,6 @@ div.left > h1 {
 }
 
 div.right {
-    background-color: hsl(221, 100%, 96%);
     border-radius: 0 15px 15px 0;
 
 }
@@ -80,6 +81,21 @@ div.right {
 section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+div.part-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.part-score > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    margin-right: 0.5rem;
 }
 
 .test {
