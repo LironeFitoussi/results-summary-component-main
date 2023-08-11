@@ -19,6 +19,8 @@ p {
 }
 
 section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border-radius: 2rem;
     width: 50%;
     height: 50%;
@@ -103,6 +105,15 @@ div.score > p {
     
 }
 
+.score-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-header > img{
+    margin-right: 1vw;
+}
+/* Reaction part */
 .reaction {
     background-color: hsla(0, 100%, 67%, 0.1);;
 }
@@ -111,6 +122,32 @@ div.score > p {
     color: hsl(0, 100%, 67%);
 }
 
+/* Memory part */
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);;
+}
+
+.reaction > .score-header {
+    color: hsl(0, 100%, 67%);
+}
+
+/* Verbal part */
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);;
+}
+
+.reaction > .score-header {
+    color: hsl(0, 100%, 67%);
+}
+
+/* Visual part */
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);;
+}
+
+.reaction > .score-header {
+    color: hsl(0, 100%, 67%);
+}
 .topic-scores {
     display: flex;
     flex-direction: column;
@@ -126,7 +163,16 @@ div.score > p {
     border-radius: .5rem;
 }
 
-score
+.part-score > p {
+    color:  hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.part-score > p > span{
+    color:  hsla(224, 30%, 27%, 0.5);
+    font-weight: 700;
+}
+
 .verbal {
 
 }
@@ -135,17 +181,9 @@ score
     color: hsla(228, 45%, 44%, 0.781);
 }
 
-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
 
 div.part-score > div {
-    display: flex;
-    justify-content: space-around;
-}
+   
 
 img {
     margin-right: 0.5rem;
