@@ -180,6 +180,7 @@ div.score > p {
     color: #fff;
     font-size: 1.8vh;
     border-radius: 5rem;
+    font: inherit;
 }
 
 .continue-btn:active {
