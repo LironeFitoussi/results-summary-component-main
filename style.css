@@ -15,6 +15,7 @@ body {
 
 p {
     font-size: 18px;
+    margin: 0;
 }
 
 section {
@@ -86,9 +87,33 @@ div.score > p {
 }
 
 
+/* Right Card */
 
-div.right {
+.right {
     border-radius: 0 15px 15px 0;
+    margin: 0 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right > p {
+    font-weight: 700;
+    font-size: 2.5vh;
+    
+}
+
+.part-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);;
+}
+
+.verbal {
 
 }
 
@@ -101,11 +126,7 @@ section {
     grid-template-columns: 1fr 1fr;
 }
 
-div.part-score {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 div.part-score > div {
     display: flex;
