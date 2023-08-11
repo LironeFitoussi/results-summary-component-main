@@ -205,6 +205,10 @@ div.score > p {
         gap: 3vh;
     }
 
+    .right > p {
+        font-size: 2.5vh;
+    }
+
     .topic-scores {
         gap: 2vh;
     }
