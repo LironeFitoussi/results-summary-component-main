@@ -20,6 +20,7 @@ p {
 section {
     border-radius: 2rem;
     width: 50%;
+    height: 50%;
     margin: auto;
     background-color: hsl(0, 0%, 100%);
     -webkit-box-shadow: 9px 7px 21px 8px rgba(0,0,0,0.18); 
@@ -27,7 +28,7 @@ section {
 }
 
 div.left, div.right {
-    padding: 2rem 3rem;
+    padding: 1rem;
 }
 div.left {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -37,9 +38,24 @@ div.left {
     border-radius: 2rem;
 }
 
-div.left > p {
+.left > h2 {
     color: hsl(241, 100%, 89%);
     font-weight: 700;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.left > h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+}
+
+div.left > p {
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-size: 1.8vh;
+    width: 80%;
     text-align: center;
 }
 
@@ -48,16 +64,16 @@ div.score {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 3vw;
-    height: auto;
-    aspect-ratio: 1 / 1 ;
+    width: 7vw;
+    height: 10vh;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-    padding: 4rem;
+    padding: 3rem;
+    margin: 2vh;
 }
 
 div.score > h1 {
-    font-size: 4rem;
+    font-size: 7vh;
     margin: 0 ;
     color: hsl(0, 0%, 100%);
     font-weight: 900;
@@ -69,10 +85,7 @@ div.score > p {
     color: hsla(241, 100%, 89%, 0.685);
 }
 
-div.left > h1 {
-    font-size: 2rem;
-    color: hsl(0, 0%, 100%);
-}
+
 
 div.right {
     border-radius: 0 15px 15px 0;
