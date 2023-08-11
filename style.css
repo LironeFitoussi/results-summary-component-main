@@ -18,10 +18,12 @@ p {
 }
 
 section {
-    border-radius: 3rem;
+    border-radius: 2rem;
     width: 50%;
     margin: auto;
-    background-color: hsl(221, 100%, 96%);
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 9px 7px 21px 8px rgba(0,0,0,0.18); 
+    box-shadow: 9px 7px 21px 8px rgba(0,0,0,0.18);
 }
 
 div.left, div.right {
@@ -32,7 +34,7 @@ div.left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 3rem;
+    border-radius: 2rem;
 }
 
 div.left > p {
@@ -46,9 +48,12 @@ div.score {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 3vw;
+    height: auto;
+    aspect-ratio: 1 / 1 ;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-    padding: 2rem 3rem;
+    padding: 4rem;
 }
 
 div.score > h1 {
@@ -107,12 +112,6 @@ img {
 
     /*Gradients*/
 
-
-
-
-    
-    
-    
     /*Neutral*/
     
     color: hsl(0, 0%, 100%);
