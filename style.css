@@ -152,7 +152,7 @@ div.score > p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70%;
+    height: 60%;
 }
 
 .part-score {
@@ -173,6 +173,14 @@ div.score > p {
     font-weight: 700;
 }
 
+.continue-btn {
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    height: 5vh;
+    color: #fff;
+    font-size: 1.8vh;
+    border-radius: 5rem;
+}
 
 
 .attribution a { 
@@ -180,12 +188,7 @@ div.score > p {
 }
 
 
-/* div.part-score > div { */
    
-
-img {
-    margin-right: 0.5rem;
-}
 
 .test {
     /*Primary*/
