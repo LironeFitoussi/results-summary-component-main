@@ -67,8 +67,8 @@ div.score {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 7vw;
-    height: 10vh;
+    width: 5rem;
+    height: 5rem;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     padding: 3rem;
@@ -186,27 +186,26 @@ div.score > p {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-
+.attribution {
+    margin-top: 5vh;
+}
 .attribution a { 
     color: hsla(228, 45%, 44%, 0.781);
 }
 
+@media screen and (max-width: 375px) {
+    section {
+        width: 100%;
+        height: fit-content;
+        grid-template-columns: 1fr;
+    }
 
-   
+    .right {
+        height: fit-content;
+        gap: 3vh;
+    }
 
-.test {
-    /*Primary*/
-    color: hsl(0, 100%, 67%);
-    color: hsl(39, 100%, 56%);
-    color: hsl(166, 100%, 37%);
-    color: hsl(234, 85%, 45%); 
-
-    /*Gradients*/
-
-    /*Neutral*/
-    
-    color: hsl(0, 0%, 100%);
-    color: hsl(221, 100%, 96%);
-    color: hsl(241, 100%, 89%);
-    color: hsl(224, 30%, 27%);
+    .topic-scores {
+        gap: 2vh;
+    }
 }
